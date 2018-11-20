@@ -1,0 +1,2646 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description></description>
+  <groupId>80273e6b-0157-1000-8a0e-dcde7c346eb9</groupId>
+  <name>RSSDemo</name>
+  <snippet>
+    <connections>
+      <id>fa337248-0158-1000-0000-000000000000</id>
+      <parentGroupId>80273e6b-0157-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>80273e6b-0157-1000-0000-000000000000</groupId>
+        <id>fa335397-0158-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>80273e6b-0157-1000-0000-000000000000</groupId>
+        <id>fa1f2663-0158-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <processGroups>
+      <id>fa91cb38-0158-1000-0000-000000000000</id>
+      <parentGroupId>80273e6b-0157-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>268.8619058676319</y>
+      </position>
+      <comments></comments>
+      <contents>
+        <connections>
+          <id>fa9c6a70-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa93cb17-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>success</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa91ed85-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fa9c95f3-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa9521d3-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>splits</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa93cb17-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fa9cdab0-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa96c719-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>matched</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa9521d3-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb1a3d79-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <bends>
+            <x>702.0109252929688</x>
+            <y>567.0640869140625</y>
+          </bends>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa98cc95-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>0</labelIndex>
+          <name></name>
+          <selectedRelationships>Response</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa96c719-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb1e8e94-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <bends>
+            <x>1307.3609619140625</x>
+            <y>630.2258911132812</y>
+          </bends>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb1e2d0b-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>0</labelIndex>
+          <name></name>
+          <selectedRelationships>Response</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa96c719-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb25d02d-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb1e2d0a-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>merged</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb1e2d0b-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb25e0be-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa9a4036-0158-1000-0000-000000000000</groupId>
+            <id>fd293e1f-f3e2-4c7d-865a-4334074f35a0</id>
+            <type>REMOTE_INPUT_PORT</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>success</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb1e2d0a-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb2671b0-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb2671ae-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>merged</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb2671af-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb26abcf-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb2671af-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>success</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fa98cc95-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>fb26bf6b-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fad76327-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>success</selectedRelationships>
+          <source>
+            <groupId>fa91cb38-0158-1000-0000-000000000000</groupId>
+            <id>fb2671ae-0158-1000-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <labels>
+          <id>fb2887f6-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>82.80436913523897</x>
+            <y>-113.45011478603317</y>
+          </position>
+          <height>588.5528564453125</height>
+          <label></label>
+          <style></style>
+          <width>412.804443359375</width>
+        </labels>
+        <labels>
+          <id>fb297045-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>663.182789473074</x>
+            <y>-54.18609533721201</y>
+          </position>
+          <height>382.150634765625</height>
+          <label></label>
+          <style>
+            <entry>
+              <key>background-color</key>
+              <value>#ebebeb</value>
+            </entry>
+          </style>
+          <width>400.54296875</width>
+        </labels>
+        <labels>
+          <id>fb2a3282-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>1103.0308119340116</x>
+            <y>-49.62196264678232</y>
+          </position>
+          <height>382.150634765625</height>
+          <label></label>
+          <style>
+            <entry>
+              <key>background-color</key>
+              <value>#ebebeb</value>
+            </entry>
+          </style>
+          <width>400.54296875</width>
+        </labels>
+        <processors>
+          <id>fa91ed85-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>108.8006205129036</x>
+            <y>-99.8666271688362</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Keep Source File</key>
+                <value>
+                  <name>Keep Source File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum File Age</key>
+                <value>
+                  <name>Minimum File Age</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Polling Interval</key>
+                <value>
+                  <name>Polling Interval</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Input Directory</key>
+                <value>
+                  <name>Input Directory</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum File Age</key>
+                <value>
+                  <name>Maximum File Age</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Batch Size</key>
+                <value>
+                  <name>Batch Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum File Size</key>
+                <value>
+                  <name>Maximum File Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum File Size</key>
+                <value>
+                  <name>Minimum File Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Ignore Hidden Files</key>
+                <value>
+                  <name>Ignore Hidden Files</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Recurse Subdirectories</key>
+                <value>
+                  <name>Recurse Subdirectories</name>
+                </value>
+              </entry>
+              <entry>
+                <key>File Filter</key>
+                <value>
+                  <name>File Filter</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Path Filter</key>
+                <value>
+                  <name>Path Filter</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Keep Source File</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Minimum File Age</key>
+                <value>0 sec</value>
+              </entry>
+              <entry>
+                <key>Polling Interval</key>
+                <value>0 sec</value>
+              </entry>
+              <entry>
+                <key>Input Directory</key>
+                <value>/Users/gkeys/DEV/demos/rss/stage</value>
+              </entry>
+              <entry>
+                <key>Maximum File Age</key>
+              </entry>
+              <entry>
+                <key>Batch Size</key>
+                <value>10</value>
+              </entry>
+              <entry>
+                <key>Maximum File Size</key>
+              </entry>
+              <entry>
+                <key>Minimum File Size</key>
+                <value>0 B</value>
+              </entry>
+              <entry>
+                <key>Ignore Hidden Files</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>Recurse Subdirectories</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>File Filter</key>
+                <value>[^\.].*</value>
+              </entry>
+              <entry>
+                <key>Path Filter</key>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>GetFile</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.GetFile</type>
+        </processors>
+        <processors>
+          <id>fa93cb17-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>109.78498025411454</x>
+            <y>102.90109209996263</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Remove Trailing Newlines</key>
+                <value>
+                  <name>Remove Trailing Newlines</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Fragment Size</key>
+                <value>
+                  <name>Maximum Fragment Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Header Line Marker Characters</key>
+                <value>
+                  <name>Header Line Marker Characters</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Header Line Count</key>
+                <value>
+                  <name>Header Line Count</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Line Split Count</key>
+                <value>
+                  <name>Line Split Count</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Remove Trailing Newlines</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>Maximum Fragment Size</key>
+              </entry>
+              <entry>
+                <key>Header Line Marker Characters</key>
+              </entry>
+              <entry>
+                <key>Header Line Count</key>
+                <value>0</value>
+              </entry>
+              <entry>
+                <key>Line Split Count</key>
+                <value>1</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>SplitText</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>original</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>splits</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.SplitText</type>
+        </processors>
+        <processors>
+          <id>fa9521d3-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>111.19979696589871</x>
+            <y>302.78445842949213</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Enable Unicode Predefined Character Classes</key>
+                <value>
+                  <name>Enable Unicode Predefined Character Classes</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Permit Whitespace and Comments in Pattern</key>
+                <value>
+                  <name>Permit Whitespace and Comments in Pattern</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Unicode-aware Case Folding</key>
+                <value>
+                  <name>Enable Unicode-aware Case Folding</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable DOTALL Mode</key>
+                <value>
+                  <name>Enable DOTALL Mode</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Unix Lines Mode</key>
+                <value>
+                  <name>Enable Unix Lines Mode</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Buffer Size</key>
+                <value>
+                  <name>Maximum Buffer Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Canonical Equivalence</key>
+                <value>
+                  <name>Enable Canonical Equivalence</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Case-insensitive Matching</key>
+                <value>
+                  <name>Enable Case-insensitive Matching</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Multiline Mode</key>
+                <value>
+                  <name>Enable Multiline Mode</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Capture Group Length</key>
+                <value>
+                  <name>Maximum Capture Group Length</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Enable Literal Parsing of the Pattern</key>
+                <value>
+                  <name>Enable Literal Parsing of the Pattern</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Character Set</key>
+                <value>
+                  <name>Character Set</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Include Capture Group 0</key>
+                <value>
+                  <name>Include Capture Group 0</name>
+                </value>
+              </entry>
+              <entry>
+                <key>extract-text-enable-repeating-capture-group</key>
+                <value>
+                  <name>extract-text-enable-repeating-capture-group</name>
+                </value>
+              </entry>
+              <entry>
+                <key>target.url</key>
+                <value>
+                  <name>target.url</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Enable Unicode Predefined Character Classes</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Permit Whitespace and Comments in Pattern</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Enable Unicode-aware Case Folding</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Enable DOTALL Mode</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Enable Unix Lines Mode</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Maximum Buffer Size</key>
+                <value>1 MB</value>
+              </entry>
+              <entry>
+                <key>Enable Canonical Equivalence</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Enable Case-insensitive Matching</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Enable Multiline Mode</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Maximum Capture Group Length</key>
+                <value>1024</value>
+              </entry>
+              <entry>
+                <key>Enable Literal Parsing of the Pattern</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Character Set</key>
+                <value>UTF-8</value>
+              </entry>
+              <entry>
+                <key>Include Capture Group 0</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>extract-text-enable-repeating-capture-group</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>target.url</key>
+                <value>(.*)</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>ExtractText</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>matched</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>unmatched</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.ExtractText</type>
+        </processors>
+        <processors>
+          <id>fa96c719-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>109.22867944027439</x>
+            <y>563.258667702044</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Proxy Host</key>
+                <value>
+                  <name>Proxy Host</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Attributes to Send</key>
+                <value>
+                  <name>Attributes to Send</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Trusted Hostname</key>
+                <value>
+                  <name>Trusted Hostname</name>
+                </value>
+              </entry>
+              <entry>
+                <key>invokehttp-proxy-user</key>
+                <value>
+                  <name>invokehttp-proxy-user</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Read Timeout</key>
+                <value>
+                  <name>Read Timeout</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Max Length To Put In Attribute</key>
+                <value>
+                  <name>Max Length To Put In Attribute</name>
+                </value>
+              </entry>
+              <entry>
+                <key>invokehttp-proxy-password</key>
+                <value>
+                  <name>invokehttp-proxy-password</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Basic Authentication Password</key>
+                <value>
+                  <name>Basic Authentication Password</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Proxy Port</key>
+                <value>
+                  <name>Proxy Port</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Connection Timeout</key>
+                <value>
+                  <name>Connection Timeout</name>
+                </value>
+              </entry>
+              <entry>
+                <key>send-message-body</key>
+                <value>
+                  <name>send-message-body</name>
+                </value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+                <value>
+                  <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                  <name>SSL Context Service</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Digest Authentication</key>
+                <value>
+                  <name>Digest Authentication</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Always Output Response</key>
+                <value>
+                  <name>Always Output Response</name>
+                </value>
+              </entry>
+              <entry>
+                <key>HTTP Method</key>
+                <value>
+                  <name>HTTP Method</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Add Response Headers to Request</key>
+                <value>
+                  <name>Add Response Headers to Request</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Basic Authentication Username</key>
+                <value>
+                  <name>Basic Authentication Username</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Include Date Header</key>
+                <value>
+                  <name>Include Date Header</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Put Response Body In Attribute</key>
+                <value>
+                  <name>Put Response Body In Attribute</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Use Chunked Encoding</key>
+                <value>
+                  <name>Use Chunked Encoding</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Penalize on "No Retry"</key>
+                <value>
+                  <name>Penalize on "No Retry"</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Follow Redirects</key>
+                <value>
+                  <name>Follow Redirects</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Remote URL</key>
+                <value>
+                  <name>Remote URL</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Content-Type</key>
+                <value>
+                  <name>Content-Type</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Proxy Host</key>
+              </entry>
+              <entry>
+                <key>Attributes to Send</key>
+              </entry>
+              <entry>
+                <key>Trusted Hostname</key>
+              </entry>
+              <entry>
+                <key>invokehttp-proxy-user</key>
+              </entry>
+              <entry>
+                <key>Read Timeout</key>
+                <value>15 secs</value>
+              </entry>
+              <entry>
+                <key>Max Length To Put In Attribute</key>
+                <value>256</value>
+              </entry>
+              <entry>
+                <key>invokehttp-proxy-password</key>
+              </entry>
+              <entry>
+                <key>Basic Authentication Password</key>
+              </entry>
+              <entry>
+                <key>Proxy Port</key>
+              </entry>
+              <entry>
+                <key>Connection Timeout</key>
+                <value>5 secs</value>
+              </entry>
+              <entry>
+                <key>send-message-body</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+              </entry>
+              <entry>
+                <key>Digest Authentication</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Always Output Response</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>HTTP Method</key>
+                <value>GET</value>
+              </entry>
+              <entry>
+                <key>Add Response Headers to Request</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Basic Authentication Username</key>
+              </entry>
+              <entry>
+                <key>Include Date Header</key>
+                <value>True</value>
+              </entry>
+              <entry>
+                <key>Put Response Body In Attribute</key>
+              </entry>
+              <entry>
+                <key>Use Chunked Encoding</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Penalize on "No Retry"</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Follow Redirects</key>
+                <value>True</value>
+              </entry>
+              <entry>
+                <key>Remote URL</key>
+                <value>${target.url}</value>
+              </entry>
+              <entry>
+                <key>Content-Type</key>
+                <value>${mime.type}</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>InvokeHTTP</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>Failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>No Retry</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>Original</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>Response</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>Retry</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.InvokeHTTP</type>
+        </processors>
+        <processors>
+          <id>fa98cc95-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>691.1705081487926</x>
+            <y>356.12337584952536</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Script File</key>
+                <value>
+                  <name>Script File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Script Engine</key>
+                <value>
+                  <name>Script Engine</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Script Body</key>
+                <value>
+                  <name>Script Body</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Module Directory</key>
+                <value>
+                  <name>Module Directory</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Script File</key>
+                <value>/Users/gkeys/DEV/demos/rss/rss.groovy</value>
+              </entry>
+              <entry>
+                <key>Script Engine</key>
+                <value>Groovy</value>
+              </entry>
+              <entry>
+                <key>Script Body</key>
+              </entry>
+              <entry>
+                <key>Module Directory</key>
+                <value>/Users/gkeys/DEV/nifi-1.1.0-SNAPSHOT/lib</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>ExecuteScript</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.script.ExecuteScript</type>
+        </processors>
+        <processors>
+          <id>fad7215e-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>4109.141410545067</x>
+            <y>792.4161597357856</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Proxy Host</key>
+                <value>
+                  <name>Proxy Host</name>
+                </value>
+              </entry>
+              <entry>
+                <key>FullControl User List</key>
+                <value>
+                  <name>FullControl User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Owner</key>
+                <value>
+                  <name>Owner</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Access Key</key>
+                <value>
+                  <name>Access Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Endpoint Override URL</key>
+                <value>
+                  <name>Endpoint Override URL</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Upload Max Age Threshold</key>
+                <value>
+                  <name>Multipart Upload Max Age Threshold</name>
+                </value>
+              </entry>
+              <entry>
+                <key>canned-acl</key>
+                <value>
+                  <name>canned-acl</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Signer Override</key>
+                <value>
+                  <name>Signer Override</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Content Type</key>
+                <value>
+                  <name>Content Type</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Secret Key</key>
+                <value>
+                  <name>Secret Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Write ACL User List</key>
+                <value>
+                  <name>Write ACL User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>server-side-encryption</key>
+                <value>
+                  <name>server-side-encryption</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Read ACL User List</key>
+                <value>
+                  <name>Read ACL User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Storage Class</key>
+                <value>
+                  <name>Storage Class</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Part Size</key>
+                <value>
+                  <name>Multipart Part Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Object Key</key>
+                <value>
+                  <name>Object Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>AWS Credentials Provider service</key>
+                <value>
+                  <identifiesControllerService>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService</identifiesControllerService>
+                  <name>AWS Credentials Provider service</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Threshold</key>
+                <value>
+                  <name>Multipart Threshold</name>
+                </value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+                <value>
+                  <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                  <name>SSL Context Service</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Bucket</key>
+                <value>
+                  <name>Bucket</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Upload AgeOff Interval</key>
+                <value>
+                  <name>Multipart Upload AgeOff Interval</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Write Permission User List</key>
+                <value>
+                  <name>Write Permission User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Communications Timeout</key>
+                <value>
+                  <name>Communications Timeout</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Credentials File</key>
+                <value>
+                  <name>Credentials File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Region</key>
+                <value>
+                  <name>Region</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Read Permission User List</key>
+                <value>
+                  <name>Read Permission User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Expiration Time Rule</key>
+                <value>
+                  <name>Expiration Time Rule</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Proxy Host Port</key>
+                <value>
+                  <name>Proxy Host Port</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Proxy Host</key>
+              </entry>
+              <entry>
+                <key>FullControl User List</key>
+                <value>${s3.permissions.full.users}</value>
+              </entry>
+              <entry>
+                <key>Owner</key>
+                <value>${s3.owner}</value>
+              </entry>
+              <entry>
+                <key>Access Key</key>
+              </entry>
+              <entry>
+                <key>Endpoint Override URL</key>
+              </entry>
+              <entry>
+                <key>Multipart Upload Max Age Threshold</key>
+                <value>7 days</value>
+              </entry>
+              <entry>
+                <key>canned-acl</key>
+                <value>${s3.permissions.cannedacl}</value>
+              </entry>
+              <entry>
+                <key>Signer Override</key>
+                <value>Default Signature</value>
+              </entry>
+              <entry>
+                <key>Content Type</key>
+              </entry>
+              <entry>
+                <key>Secret Key</key>
+              </entry>
+              <entry>
+                <key>Write ACL User List</key>
+                <value>${s3.permissions.writeacl.users}</value>
+              </entry>
+              <entry>
+                <key>server-side-encryption</key>
+                <value>None</value>
+              </entry>
+              <entry>
+                <key>Read ACL User List</key>
+                <value>${s3.permissions.readacl.users}</value>
+              </entry>
+              <entry>
+                <key>Storage Class</key>
+                <value>Standard</value>
+              </entry>
+              <entry>
+                <key>Multipart Part Size</key>
+                <value>5 GB</value>
+              </entry>
+              <entry>
+                <key>Object Key</key>
+                <value>${filename}</value>
+              </entry>
+              <entry>
+                <key>AWS Credentials Provider service</key>
+              </entry>
+              <entry>
+                <key>Multipart Threshold</key>
+                <value>5 GB</value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+              </entry>
+              <entry>
+                <key>Bucket</key>
+                <value>greg-hwx-demo</value>
+              </entry>
+              <entry>
+                <key>Multipart Upload AgeOff Interval</key>
+                <value>60 min</value>
+              </entry>
+              <entry>
+                <key>Write Permission User List</key>
+                <value>${s3.permissions.write.users}</value>
+              </entry>
+              <entry>
+                <key>Communications Timeout</key>
+                <value>30 secs</value>
+              </entry>
+              <entry>
+                <key>Credentials File</key>
+              </entry>
+              <entry>
+                <key>Region</key>
+                <value>us-east-1</value>
+              </entry>
+              <entry>
+                <key>Read Permission User List</key>
+                <value>${s3.permissions.read.users}</value>
+              </entry>
+              <entry>
+                <key>Expiration Time Rule</key>
+              </entry>
+              <entry>
+                <key>Proxy Host Port</key>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>PutS3Object</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.aws.s3.PutS3Object</type>
+        </processors>
+        <processors>
+          <id>fad76327-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>682.7490321209402</x>
+            <y>-235.7394913947241</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Proxy Host</key>
+                <value>
+                  <name>Proxy Host</name>
+                </value>
+              </entry>
+              <entry>
+                <key>FullControl User List</key>
+                <value>
+                  <name>FullControl User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Owner</key>
+                <value>
+                  <name>Owner</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Access Key</key>
+                <value>
+                  <name>Access Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Endpoint Override URL</key>
+                <value>
+                  <name>Endpoint Override URL</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Upload Max Age Threshold</key>
+                <value>
+                  <name>Multipart Upload Max Age Threshold</name>
+                </value>
+              </entry>
+              <entry>
+                <key>canned-acl</key>
+                <value>
+                  <name>canned-acl</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Signer Override</key>
+                <value>
+                  <name>Signer Override</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Content Type</key>
+                <value>
+                  <name>Content Type</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Secret Key</key>
+                <value>
+                  <name>Secret Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Write ACL User List</key>
+                <value>
+                  <name>Write ACL User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>server-side-encryption</key>
+                <value>
+                  <name>server-side-encryption</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Read ACL User List</key>
+                <value>
+                  <name>Read ACL User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Storage Class</key>
+                <value>
+                  <name>Storage Class</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Part Size</key>
+                <value>
+                  <name>Multipart Part Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Object Key</key>
+                <value>
+                  <name>Object Key</name>
+                </value>
+              </entry>
+              <entry>
+                <key>AWS Credentials Provider service</key>
+                <value>
+                  <identifiesControllerService>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService</identifiesControllerService>
+                  <name>AWS Credentials Provider service</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Threshold</key>
+                <value>
+                  <name>Multipart Threshold</name>
+                </value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+                <value>
+                  <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                  <name>SSL Context Service</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Bucket</key>
+                <value>
+                  <name>Bucket</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Multipart Upload AgeOff Interval</key>
+                <value>
+                  <name>Multipart Upload AgeOff Interval</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Write Permission User List</key>
+                <value>
+                  <name>Write Permission User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Communications Timeout</key>
+                <value>
+                  <name>Communications Timeout</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Credentials File</key>
+                <value>
+                  <name>Credentials File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Region</key>
+                <value>
+                  <name>Region</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Read Permission User List</key>
+                <value>
+                  <name>Read Permission User List</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Expiration Time Rule</key>
+                <value>
+                  <name>Expiration Time Rule</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Proxy Host Port</key>
+                <value>
+                  <name>Proxy Host Port</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Proxy Host</key>
+              </entry>
+              <entry>
+                <key>FullControl User List</key>
+                <value>${s3.permissions.full.users}</value>
+              </entry>
+              <entry>
+                <key>Owner</key>
+                <value>${s3.owner}</value>
+              </entry>
+              <entry>
+                <key>Access Key</key>
+              </entry>
+              <entry>
+                <key>Endpoint Override URL</key>
+              </entry>
+              <entry>
+                <key>Multipart Upload Max Age Threshold</key>
+                <value>7 days</value>
+              </entry>
+              <entry>
+                <key>canned-acl</key>
+                <value>${s3.permissions.cannedacl}</value>
+              </entry>
+              <entry>
+                <key>Signer Override</key>
+                <value>Default Signature</value>
+              </entry>
+              <entry>
+                <key>Content Type</key>
+              </entry>
+              <entry>
+                <key>Secret Key</key>
+              </entry>
+              <entry>
+                <key>Write ACL User List</key>
+                <value>${s3.permissions.writeacl.users}</value>
+              </entry>
+              <entry>
+                <key>server-side-encryption</key>
+                <value>None</value>
+              </entry>
+              <entry>
+                <key>Read ACL User List</key>
+                <value>${s3.permissions.readacl.users}</value>
+              </entry>
+              <entry>
+                <key>Storage Class</key>
+                <value>Standard</value>
+              </entry>
+              <entry>
+                <key>Multipart Part Size</key>
+                <value>5 GB</value>
+              </entry>
+              <entry>
+                <key>Object Key</key>
+                <value>${filename}</value>
+              </entry>
+              <entry>
+                <key>AWS Credentials Provider service</key>
+              </entry>
+              <entry>
+                <key>Multipart Threshold</key>
+                <value>5 GB</value>
+              </entry>
+              <entry>
+                <key>SSL Context Service</key>
+              </entry>
+              <entry>
+                <key>Bucket</key>
+                <value>greg-hwx-demo</value>
+              </entry>
+              <entry>
+                <key>Multipart Upload AgeOff Interval</key>
+                <value>60 min</value>
+              </entry>
+              <entry>
+                <key>Write Permission User List</key>
+                <value>${s3.permissions.write.users}</value>
+              </entry>
+              <entry>
+                <key>Communications Timeout</key>
+                <value>30 secs</value>
+              </entry>
+              <entry>
+                <key>Credentials File</key>
+              </entry>
+              <entry>
+                <key>Region</key>
+                <value>us-east-1</value>
+              </entry>
+              <entry>
+                <key>Read Permission User List</key>
+                <value>${s3.permissions.read.users}</value>
+              </entry>
+              <entry>
+                <key>Expiration Time Rule</key>
+              </entry>
+              <entry>
+                <key>Proxy Host Port</key>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>PutS3Object</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.aws.s3.PutS3Object</type>
+        </processors>
+        <processors>
+          <id>fb1e2d0a-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>1128.5583169351576</x>
+            <y>-16.011155946075178</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Delete Attributes Expression</key>
+                <value>
+                  <name>Delete Attributes Expression</name>
+                </value>
+              </entry>
+              <entry>
+                <key>filename</key>
+                <value>
+                  <name>filename</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Delete Attributes Expression</key>
+              </entry>
+              <entry>
+                <key>filename</key>
+                <value>${now():format('YYYYMMdd-HHmm')}.tsv</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>UpdateAttribute</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+        <processors>
+          <id>fb1e2d0b-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>1132.7437758724059</x>
+            <y>171.13421615423977</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Keep Path</key>
+                <value>
+                  <name>Keep Path</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Group Size</key>
+                <value>
+                  <name>Maximum Group Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Merge Strategy</key>
+                <value>
+                  <name>Merge Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Attribute Strategy</key>
+                <value>
+                  <name>Attribute Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Compression Level</key>
+                <value>
+                  <name>Compression Level</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Number of Entries</key>
+                <value>
+                  <name>Maximum Number of Entries</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum Group Size</key>
+                <value>
+                  <name>Minimum Group Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum number of Bins</key>
+                <value>
+                  <name>Maximum number of Bins</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Delimiter Strategy</key>
+                <value>
+                  <name>Delimiter Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Merge Format</key>
+                <value>
+                  <name>Merge Format</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Footer File</key>
+                <value>
+                  <name>Footer File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Max Bin Age</key>
+                <value>
+                  <name>Max Bin Age</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Demarcator File</key>
+                <value>
+                  <name>Demarcator File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Correlation Attribute Name</key>
+                <value>
+                  <name>Correlation Attribute Name</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Header File</key>
+                <value>
+                  <name>Header File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum Number of Entries</key>
+                <value>
+                  <name>Minimum Number of Entries</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Keep Path</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Maximum Group Size</key>
+              </entry>
+              <entry>
+                <key>Merge Strategy</key>
+                <value>Bin-Packing Algorithm</value>
+              </entry>
+              <entry>
+                <key>Attribute Strategy</key>
+                <value>Keep Only Common Attributes</value>
+              </entry>
+              <entry>
+                <key>Compression Level</key>
+                <value>1</value>
+              </entry>
+              <entry>
+                <key>Maximum Number of Entries</key>
+              </entry>
+              <entry>
+                <key>Minimum Group Size</key>
+                <value>0 B</value>
+              </entry>
+              <entry>
+                <key>Maximum number of Bins</key>
+                <value>100</value>
+              </entry>
+              <entry>
+                <key>Delimiter Strategy</key>
+                <value>Filename</value>
+              </entry>
+              <entry>
+                <key>Merge Format</key>
+                <value>Binary Concatenation</value>
+              </entry>
+              <entry>
+                <key>Footer File</key>
+              </entry>
+              <entry>
+                <key>Max Bin Age</key>
+              </entry>
+              <entry>
+                <key>Demarcator File</key>
+              </entry>
+              <entry>
+                <key>Correlation Attribute Name</key>
+              </entry>
+              <entry>
+                <key>Header File</key>
+              </entry>
+              <entry>
+                <key>Minimum Number of Entries</key>
+                <value>1</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>MergeContent</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>merged</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>original</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.MergeContent</type>
+        </processors>
+        <processors>
+          <id>fb2671ae-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>685.7474038492201</x>
+            <y>-14.2853358815305</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Delete Attributes Expression</key>
+                <value>
+                  <name>Delete Attributes Expression</name>
+                </value>
+              </entry>
+              <entry>
+                <key>filename</key>
+                <value>
+                  <name>filename</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Delete Attributes Expression</key>
+              </entry>
+              <entry>
+                <key>filename</key>
+                <value>${now():format('YYYYMMdd-HHmm')}.tsv</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>UpdateAttribute</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+        <processors>
+          <id>fb2671af-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>689.7625747005309</x>
+            <y>173.65476974310695</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Keep Path</key>
+                <value>
+                  <name>Keep Path</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Group Size</key>
+                <value>
+                  <name>Maximum Group Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Merge Strategy</key>
+                <value>
+                  <name>Merge Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Attribute Strategy</key>
+                <value>
+                  <name>Attribute Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Compression Level</key>
+                <value>
+                  <name>Compression Level</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum Number of Entries</key>
+                <value>
+                  <name>Maximum Number of Entries</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum Group Size</key>
+                <value>
+                  <name>Minimum Group Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum number of Bins</key>
+                <value>
+                  <name>Maximum number of Bins</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Delimiter Strategy</key>
+                <value>
+                  <name>Delimiter Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Merge Format</key>
+                <value>
+                  <name>Merge Format</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Footer File</key>
+                <value>
+                  <name>Footer File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Max Bin Age</key>
+                <value>
+                  <name>Max Bin Age</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Demarcator File</key>
+                <value>
+                  <name>Demarcator File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Correlation Attribute Name</key>
+                <value>
+                  <name>Correlation Attribute Name</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Header File</key>
+                <value>
+                  <name>Header File</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Minimum Number of Entries</key>
+                <value>
+                  <name>Minimum Number of Entries</name>
+                </value>
+              </entry>
+            </descriptors>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Keep Path</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Maximum Group Size</key>
+              </entry>
+              <entry>
+                <key>Merge Strategy</key>
+                <value>Bin-Packing Algorithm</value>
+              </entry>
+              <entry>
+                <key>Attribute Strategy</key>
+                <value>Keep Only Common Attributes</value>
+              </entry>
+              <entry>
+                <key>Compression Level</key>
+                <value>1</value>
+              </entry>
+              <entry>
+                <key>Maximum Number of Entries</key>
+              </entry>
+              <entry>
+                <key>Minimum Group Size</key>
+                <value>0 B</value>
+              </entry>
+              <entry>
+                <key>Maximum number of Bins</key>
+                <value>100</value>
+              </entry>
+              <entry>
+                <key>Delimiter Strategy</key>
+                <value>Filename</value>
+              </entry>
+              <entry>
+                <key>Merge Format</key>
+                <value>Binary Concatenation</value>
+              </entry>
+              <entry>
+                <key>Footer File</key>
+              </entry>
+              <entry>
+                <key>Max Bin Age</key>
+              </entry>
+              <entry>
+                <key>Demarcator File</key>
+              </entry>
+              <entry>
+                <key>Correlation Attribute Name</key>
+              </entry>
+              <entry>
+                <key>Header File</key>
+              </entry>
+              <entry>
+                <key>Minimum Number of Entries</key>
+                <value>1</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>MergeContent</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>merged</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>original</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.MergeContent</type>
+        </processors>
+        <remoteProcessGroups>
+          <id>fa9a4036-0158-1000-0000-000000000000</id>
+          <parentGroupId>fa91cb38-0158-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>1112.6642396645234</x>
+            <y>-250.17816439309922</y>
+          </position>
+          <comments></comments>
+          <communicationsTimeout>30 sec</communicationsTimeout>
+          <contents>
+            <inputPorts>
+              <comments></comments>
+              <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+              <connected>true</connected>
+              <exists>true</exists>
+              <id>fd293e1f-f3e2-4c7d-865a-4334074f35a0</id>
+              <name>From Remote</name>
+              <targetRunning>true</targetRunning>
+              <transmitting>true</transmitting>
+              <useCompression>false</useCompression>
+            </inputPorts>
+          </contents>
+          <proxyHost></proxyHost>
+          <proxyUser></proxyUser>
+          <targetUri>http://127.0.0.1:9090/nifi</targetUri>
+          <transportProtocol>RAW</transportProtocol>
+          <yieldDuration>10 sec</yieldDuration>
+        </remoteProcessGroups>
+      </contents>
+      <name>RSSFeedDemo</name>
+    </processGroups>
+    <processors>
+      <id>fa1f2663-0158-1000-0000-000000000000</id>
+      <parentGroupId>80273e6b-0157-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>496.40672089953796</x>
+        <y>0.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Keep Source File</key>
+            <value>
+              <name>Keep Source File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>
+              <name>Minimum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>
+              <name>Polling Interval</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Input Directory</key>
+            <value>
+              <name>Input Directory</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+            <value>
+              <name>Maximum File Age</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+            <value>
+              <name>Maximum File Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>
+              <name>Minimum File Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>
+              <name>Ignore Hidden Files</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>
+              <name>Recurse Subdirectories</name>
+            </value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>
+              <name>File Filter</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+            <value>
+              <name>Path Filter</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Keep Source File</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Minimum File Age</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Polling Interval</key>
+            <value>0 sec</value>
+          </entry>
+          <entry>
+            <key>Input Directory</key>
+            <value>/Users/gkeys/DEV/staging/test</value>
+          </entry>
+          <entry>
+            <key>Maximum File Age</key>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>10</value>
+          </entry>
+          <entry>
+            <key>Maximum File Size</key>
+          </entry>
+          <entry>
+            <key>Minimum File Size</key>
+            <value>0 B</value>
+          </entry>
+          <entry>
+            <key>Ignore Hidden Files</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Recurse Subdirectories</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>File Filter</key>
+            <value>[^\.].*</value>
+          </entry>
+          <entry>
+            <key>Path Filter</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>GetFile</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.GetFile</type>
+    </processors>
+    <processors>
+      <id>fa335397-0158-1000-0000-000000000000</id>
+      <parentGroupId>80273e6b-0157-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>498.0587352857506</x>
+        <y>350.2675655788846</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Proxy Host</key>
+            <value>
+              <name>Proxy Host</name>
+            </value>
+          </entry>
+          <entry>
+            <key>FullControl User List</key>
+            <value>
+              <name>FullControl User List</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Owner</key>
+            <value>
+              <name>Owner</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+            <value>
+              <name>Access Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Endpoint Override URL</key>
+            <value>
+              <name>Endpoint Override URL</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Multipart Upload Max Age Threshold</key>
+            <value>
+              <name>Multipart Upload Max Age Threshold</name>
+            </value>
+          </entry>
+          <entry>
+            <key>canned-acl</key>
+            <value>
+              <name>canned-acl</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Signer Override</key>
+            <value>
+              <name>Signer Override</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Content Type</key>
+            <value>
+              <name>Content Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+            <value>
+              <name>Secret Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Write ACL User List</key>
+            <value>
+              <name>Write ACL User List</name>
+            </value>
+          </entry>
+          <entry>
+            <key>server-side-encryption</key>
+            <value>
+              <name>server-side-encryption</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Read ACL User List</key>
+            <value>
+              <name>Read ACL User List</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Storage Class</key>
+            <value>
+              <name>Storage Class</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Multipart Part Size</key>
+            <value>
+              <name>Multipart Part Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Object Key</key>
+            <value>
+              <name>Object Key</name>
+            </value>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.processors.aws.credentials.provider.service.AWSCredentialsProviderService</identifiesControllerService>
+              <name>AWS Credentials Provider service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Multipart Threshold</key>
+            <value>
+              <name>Multipart Threshold</name>
+            </value>
+          </entry>
+          <entry>
+            <key>SSL Context Service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+              <name>SSL Context Service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Bucket</key>
+            <value>
+              <name>Bucket</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Multipart Upload AgeOff Interval</key>
+            <value>
+              <name>Multipart Upload AgeOff Interval</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Write Permission User List</key>
+            <value>
+              <name>Write Permission User List</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>
+              <name>Communications Timeout</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+            <value>
+              <name>Credentials File</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>
+              <name>Region</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Read Permission User List</key>
+            <value>
+              <name>Read Permission User List</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Expiration Time Rule</key>
+            <value>
+              <name>Expiration Time Rule</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+            <value>
+              <name>Proxy Host Port</name>
+            </value>
+          </entry>
+        </descriptors>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Proxy Host</key>
+          </entry>
+          <entry>
+            <key>FullControl User List</key>
+            <value>${s3.permissions.full.users}</value>
+          </entry>
+          <entry>
+            <key>Owner</key>
+            <value>${s3.owner}</value>
+          </entry>
+          <entry>
+            <key>Access Key</key>
+          </entry>
+          <entry>
+            <key>Endpoint Override URL</key>
+          </entry>
+          <entry>
+            <key>Multipart Upload Max Age Threshold</key>
+            <value>7 days</value>
+          </entry>
+          <entry>
+            <key>canned-acl</key>
+            <value>${s3.permissions.cannedacl}</value>
+          </entry>
+          <entry>
+            <key>Signer Override</key>
+            <value>Default Signature</value>
+          </entry>
+          <entry>
+            <key>Content Type</key>
+          </entry>
+          <entry>
+            <key>Secret Key</key>
+          </entry>
+          <entry>
+            <key>Write ACL User List</key>
+            <value>${s3.permissions.writeacl.users}</value>
+          </entry>
+          <entry>
+            <key>server-side-encryption</key>
+            <value>None</value>
+          </entry>
+          <entry>
+            <key>Read ACL User List</key>
+            <value>${s3.permissions.readacl.users}</value>
+          </entry>
+          <entry>
+            <key>Storage Class</key>
+            <value>Standard</value>
+          </entry>
+          <entry>
+            <key>Multipart Part Size</key>
+            <value>5 GB</value>
+          </entry>
+          <entry>
+            <key>Object Key</key>
+            <value>${filename}</value>
+          </entry>
+          <entry>
+            <key>AWS Credentials Provider service</key>
+          </entry>
+          <entry>
+            <key>Multipart Threshold</key>
+            <value>5 GB</value>
+          </entry>
+          <entry>
+            <key>SSL Context Service</key>
+          </entry>
+          <entry>
+            <key>Bucket</key>
+            <value>greg-hwx-demo</value>
+          </entry>
+          <entry>
+            <key>Multipart Upload AgeOff Interval</key>
+            <value>60 min</value>
+          </entry>
+          <entry>
+            <key>Write Permission User List</key>
+            <value>${s3.permissions.write.users}</value>
+          </entry>
+          <entry>
+            <key>Communications Timeout</key>
+            <value>30 secs</value>
+          </entry>
+          <entry>
+            <key>Credentials File</key>
+          </entry>
+          <entry>
+            <key>Region</key>
+            <value>us-east-1</value>
+          </entry>
+          <entry>
+            <key>Read Permission User List</key>
+            <value>${s3.permissions.read.users}</value>
+          </entry>
+          <entry>
+            <key>Expiration Time Rule</key>
+          </entry>
+          <entry>
+            <key>Proxy Host Port</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutS3Object</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.aws.s3.PutS3Object</type>
+    </processors>
+  </snippet>
+  <timestamp>12/14/2016 11:31:23 EST</timestamp>
+</template>
